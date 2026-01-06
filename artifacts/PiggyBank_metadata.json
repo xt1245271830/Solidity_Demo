@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/piggyBank.sol": "PiggyBank"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/piggyBank.sol": {
+			"keccak256": "0x5505139130ddd4248012fec0ea27929a4682866eaed38fd9232d21d203876f23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://355e2dd85dbca76d6f72fd2733f97c2dfbe73461837efe113c96daccbe82dee7",
+				"dweb:/ipfs/QmcK6cd6RjQi6uZRN5GVj9TKHGPSvHjJXKDWPiGS71NrdM"
+			]
+		}
+	},
+	"version": 1
+}
