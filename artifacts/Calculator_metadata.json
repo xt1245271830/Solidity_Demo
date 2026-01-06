@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.33+commit.64118f21"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -69,7 +69,7 @@
 		"compilationTarget": {
 			"work/sad.sol": "Calculator"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
