@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/17Constants.sol": "C"
+			"demo1/17Constants.sol": "Con"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/17Constants.sol": {
-			"keccak256": "0x118bd3b808ca90f56f4b855436a9e341ba50c319356c62b131780683fea51367",
+			"keccak256": "0x5c56b6e3ed490f8768acef11ae22d8a9c32eea8ef1d6de1d596e5a6576fb85b8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://389525abf6cd25e5d41faef28114162694e6e608a40f65cd886c02cbf0750b08",
-				"dweb:/ipfs/QmQS9ZYqvkqmHT9hacpGbN33DctsoHF24wRwctJ4sZHxVg"
+				"bzz-raw://b8620e2f80a40a60190de1a769ba8035f2712cc8fb4c3e1342a38e99e0aa0485",
+				"dweb:/ipfs/QmXy65TuUwVAd4i73Sy6c16pNCQpTaoLXjFUqJyioLLorF"
 			]
 		}
 	},

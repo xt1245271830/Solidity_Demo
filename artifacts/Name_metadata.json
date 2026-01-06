@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/Counter.sol": "Name"
+			"demo1/19For.sol": "Name"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/Counter.sol": {
+		"demo1/19For.sol": {
 			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
 			"license": "MIT",
 			"urls": [

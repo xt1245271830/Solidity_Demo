@@ -1,0 +1,48 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea2646970667358221220eca13cfd04322a867172dac44729a7080cd8379ae2ceeadf5a90cc7a14a1ce2f64736f6c63430008210033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EOFCREATE 0xA1 EXTCODECOPY REVERT DIV ORIGIN 0x2A DUP7 PUSH18 0x72DAC44729A7080CD8379AE2CEEADF5A90CC PUSH27 0x14A1CE2F64736F6C63430008210033000000000000000000000000 ",
+			"sourceMap": "60:30:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f5ffdfea2646970667358221220eca13cfd04322a867172dac44729a7080cd8379ae2ceeadf5a90cc7a14a1ce2f64736f6c63430008210033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EOFCREATE 0xA1 EXTCODECOPY REVERT DIV ORIGIN 0x2A DUP7 PUSH18 0x72DAC44729A7080CD8379AE2CEEADF5A90CC PUSH27 0x14A1CE2F64736F6C63430008210033000000000000000000000000 ",
+			"sourceMap": "60:30:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "64",
+				"totalCost": "12464"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

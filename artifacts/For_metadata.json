@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/19For.sol": "For"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/19For.sol": {
+			"keccak256": "0x2e1bf418f0ad170251c530d20711f749d6d7b5c07a9bd37ecf35485513050924",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://377ffa71e542fbbcd7abde84edfdf365c4e47a5dbebe068e801673842c574139",
+				"dweb:/ipfs/QmWXZqcJHTcHgZWsSVfE5g5Kjs9xK6S2Cw4Bh8fef2WXpR"
+			]
+		}
+	},
+	"version": 1
+}

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/17Constants.sol": "C"
+			"demo1/18IfElse.sol": "If"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/17Constants.sol": {
-			"keccak256": "0x118bd3b808ca90f56f4b855436a9e341ba50c319356c62b131780683fea51367",
+		"demo1/18IfElse.sol": {
+			"keccak256": "0x51c3d6e3fdfecb337c181c2414c4de296779ce9a3fa1d792902daae367a9980b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://389525abf6cd25e5d41faef28114162694e6e608a40f65cd886c02cbf0750b08",
-				"dweb:/ipfs/QmQS9ZYqvkqmHT9hacpGbN33DctsoHF24wRwctJ4sZHxVg"
+				"bzz-raw://f421deb4de657b6e8e6ea7f268cc03fa73aed477bd495c365ff2a0504b4e7682",
+				"dweb:/ipfs/QmSJV4nmz5qrxL7ZoSfxzzXRTwEiPsCh91fPP7DzVBnrkt"
 			]
 		}
 	},
