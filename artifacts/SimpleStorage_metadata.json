@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -46,7 +46,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "storedData1",
+				"name": "storedData12",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -73,7 +73,7 @@
 		"compilationTarget": {
 			"work/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"work/SimpleStorage.sol": {
-			"keccak256": "0x856ab0ee6a405f0ddf595146b05fd6fde907f1ec3fe095ec75ab319107470230",
+			"keccak256": "0xc197db76df6cd84758a88222bd1b4c197887ca241e422f5252b0829fa29ff134",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d2f6d7cc32c36970fb46a63b447968362b2d8a78a85b0da605e70e54753678f9",
-				"dweb:/ipfs/QmbCQW53SNxy1nUzMvDLzaq1BCED6QRRyuP1HD88CssriA"
+				"bzz-raw://c362171f767325e4e8f097cd65d112188df81be4f7c2f02566ce62f5f475b846",
+				"dweb:/ipfs/QmRJszGrToBY3HWbamfSx21rnq8kHzXSYQmBjksNbPqWUt"
 			]
 		}
 	},
