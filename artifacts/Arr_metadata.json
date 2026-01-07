@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/25Array.sol": "Name"
+			"demo1/25Array.sol": "Arr"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/25Array.sol": {
-			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
+			"keccak256": "0xaabff014e7cf9cc4239444ebe21d6f5a011f06c47887d55ca44168596a1241ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726d49cfe79ff4cfe4e2cd923f471d9d8558bbc67a9ed0836ec7c532ecf5baaa",
-				"dweb:/ipfs/QmZ3sKbHLhnWbzui6z5oaSjb3oTmciqb7UQcscHJSV14Wn"
+				"bzz-raw://7963ba9fc52772738618c0da739ff57eb7e24750118864fcfcc20c57633261a0",
+				"dweb:/ipfs/QmcSCELGTWXz8HXHonAqg67bw3beS884uFnvYY5TYSXYQb"
 			]
 		}
 	},
