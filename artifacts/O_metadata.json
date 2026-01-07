@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/24Outputs.sol": "Name"
+			"demo1/24Outputs.sol": "O"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/24Outputs.sol": {
-			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
+			"keccak256": "0xeb9814b23ca9d65e434348d9ea9126ff9bea5b1af3707989105a348bd953a085",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726d49cfe79ff4cfe4e2cd923f471d9d8558bbc67a9ed0836ec7c532ecf5baaa",
-				"dweb:/ipfs/QmZ3sKbHLhnWbzui6z5oaSjb3oTmciqb7UQcscHJSV14Wn"
+				"bzz-raw://c28062e056e3100d1b74d491799ab02abc685effbd0a0c952304229e6aaa91fd",
+				"dweb:/ipfs/QmfCyB8XGRxYGD7iCVgEon7d9BU7CjfCUNSvnoakFizuCo"
 			]
 		}
 	},

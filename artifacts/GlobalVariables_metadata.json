@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -44,7 +44,7 @@
 		"compilationTarget": {
 			"demo1/GlobalVariables.sol": "GlobalVariables"
 		},
-		"evmVersion": "london",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
