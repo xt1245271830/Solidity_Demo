@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/FunctionIntro.sol": "Fun"
+			"demo1/21FunctionMod.sol": "Fun"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/FunctionIntro.sol": {
+		"demo1/21FunctionMod.sol": {
 			"keccak256": "0x425eba3695238c5e47f9c2440f2e1c896b8bcf38e63be7d062d02aaadc343fcc",
 			"license": "MIT",
 			"urls": [

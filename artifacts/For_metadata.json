@@ -32,7 +32,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "sum",
+				"name": "sum1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -72,11 +72,11 @@
 	},
 	"sources": {
 		"demo1/19For.sol": {
-			"keccak256": "0x2e1bf418f0ad170251c530d20711f749d6d7b5c07a9bd37ecf35485513050924",
+			"keccak256": "0xa846ec84f3d91c4eeab470fe9aa6c47854d190f883450d2a8899901e693c0a6f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://377ffa71e542fbbcd7abde84edfdf365c4e47a5dbebe068e801673842c574139",
-				"dweb:/ipfs/QmWXZqcJHTcHgZWsSVfE5g5Kjs9xK6S2Cw4Bh8fef2WXpR"
+				"bzz-raw://bdb41fe44dfe14665751b79f0526aa065d439fefb3fce7b7593b366f86d49e54",
+				"dweb:/ipfs/QmaUiqMgUZKryHUGrvA7jxpN8yfiSgv7BG3XfcAXiyriVu"
 			]
 		}
 	},

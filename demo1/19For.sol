@@ -11,7 +11,7 @@ contract For {
     }
 
     // 定义一个函数来计算从1到n的累加和
-    function sum(uint n) external pure returns (uint) {
+    function sum1(uint n) external pure returns (uint) {
     uint total = 0;
     for (uint i = 1; i <= n; i++) {
     total += i;

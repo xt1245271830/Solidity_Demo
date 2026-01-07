@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/23MyOwnable.sol": "Name"
+			"demo1/21FunctionMod.sol": "FunM"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/23MyOwnable.sol": {
-			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
+		"demo1/21FunctionMod.sol": {
+			"keccak256": "0xee878861c4e36c7447c135ef3728b9e1cafecb6937169d1ee2e479b7cea44baf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726d49cfe79ff4cfe4e2cd923f471d9d8558bbc67a9ed0836ec7c532ecf5baaa",
-				"dweb:/ipfs/QmZ3sKbHLhnWbzui6z5oaSjb3oTmciqb7UQcscHJSV14Wn"
+				"bzz-raw://d617de4834a41b7ebc1031ceb34ced46b8295382272c75cb22f187f0611a0918",
+				"dweb:/ipfs/Qmdj8DH9SXzC8Y5KHWrYiAzzmeCeVmtuVREgRHeDqCotbn"
 			]
 		}
 	},

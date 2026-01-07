@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/23MyOwnable.sol": "Name"
+			"demo1/20Error.sol": "E"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/23MyOwnable.sol": {
-			"keccak256": "0x0655f3ba73e402d39edb12f984fed4c2d9a6da66404cf877203e43eecf1100c5",
+		"demo1/20Error.sol": {
+			"keccak256": "0x1149162e84ee530d01949cdba37675bbff118ff3aa2a73f99331ede986faf8ba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726d49cfe79ff4cfe4e2cd923f471d9d8558bbc67a9ed0836ec7c532ecf5baaa",
-				"dweb:/ipfs/QmZ3sKbHLhnWbzui6z5oaSjb3oTmciqb7UQcscHJSV14Wn"
+				"bzz-raw://0f80151dd2c413645d9dc1cb27ae89a00235a6d45e5bfd040f8b79bcf0922f0f",
+				"dweb:/ipfs/QmT4kLvJmJWHFKZgE35o7vmoBZPdokYdVFMN7yB3YCMsaZ"
 			]
 		}
 	},
