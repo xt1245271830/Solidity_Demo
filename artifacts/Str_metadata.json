@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/30Structs.sol": "St"
+			"demo1/30Structs.sol": "Str"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/30Structs.sol": {
-			"keccak256": "0xfad83b40f3e887d6009a1b474fdc823519ec3b906d81270440ff77ba08303863",
+			"keccak256": "0xb683159fbb61d5119594af8170002179d0526c2e81f6b6b30368bf887149907f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://40181cf2d5e6f28cb2711dcb084a5b2fc446a3ee66b041e8fed4bb5c189d1782",
-				"dweb:/ipfs/QmUTU1gRZ4SXHz6icf4VXkzmtCKPBfxPpBzPKKVb7e4zMZ"
+				"bzz-raw://f04c1cf56e40be692c04c550bb06416da602d0b5117e616ba80d06d4cdde9766",
+				"dweb:/ipfs/QmW7rEFjRA2BB129Zzp7WfLDQVmJqmSpnMVYqbiXtUeDNp"
 			]
 		}
 	},
