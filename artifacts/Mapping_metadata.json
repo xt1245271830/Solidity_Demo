@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "map",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/28Mapping.sol": "Mapping"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/28Mapping.sol": {
+			"keccak256": "0x08a982ab30c2faf7de88f3d76adc2ca6217f2ca3197feee91df8ff84788008c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b02f81b9f838d364ef93997db2926c2df850e43540db5057f30516abff0ec29",
+				"dweb:/ipfs/QmWVBbvA6eFeCGbppLsB9YatHh8aZXyWSv94MXRpwYPVkP"
+			]
+		}
+	},
+	"version": 1
+}

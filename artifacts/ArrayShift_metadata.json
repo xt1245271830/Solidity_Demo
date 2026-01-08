@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/26ArrayShift.sol": "ArrayShift"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/26ArrayShift.sol": {
+			"keccak256": "0x71cdf1352fb08160d1ddc5bd95c07b2facfeedd981ccd42722cd789de8cb3eb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef9e291b7e16ebbcb4861d4c2f798a3d06cde4cab2647713d5ddfa240ff68ca5",
+				"dweb:/ipfs/QmXJautb1Jh295t4kMHTrYqYb1xTzpRgzeEQh64P3fT1D4"
+			]
+		}
+	},
+	"version": 1
+}
