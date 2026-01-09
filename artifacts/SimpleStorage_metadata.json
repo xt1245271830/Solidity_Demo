@@ -1,18 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "getTex",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "txt",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -21,37 +21,24 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_tex",
+						"type": "string"
 					}
 				],
-				"name": "set",
+				"name": "setTex",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "storedData",
+				"name": "text",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "storedData12",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -71,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"work/SimpleStorage.sol": "SimpleStorage"
+			"demo1/33SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "london",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"work/SimpleStorage.sol": {
-			"keccak256": "0xc197db76df6cd84758a88222bd1b4c197887ca241e422f5252b0829fa29ff134",
+		"demo1/33SimpleStorage.sol": {
+			"keccak256": "0xefb8c8836be5bec9b6399e56f05d114701381da6dc9d52333828f60f9deb80b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c362171f767325e4e8f097cd65d112188df81be4f7c2f02566ce62f5f475b846",
-				"dweb:/ipfs/QmRJszGrToBY3HWbamfSx21rnq8kHzXSYQmBjksNbPqWUt"
+				"bzz-raw://8b73e73539f67ba7b5bbe2aa5a8ff29ac938e8144a386fac3a13f68125976ea8",
+				"dweb:/ipfs/QmVsDTCjPDB2d6cQeK1VGaoP9p3c8Wje7N4BCJ2QNrZNwb"
 			]
 		}
 	},

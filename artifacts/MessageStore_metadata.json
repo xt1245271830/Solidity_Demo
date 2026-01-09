@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "txt",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tex",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"work/32SimpleStorage.sol": "MessageStore"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"work/32SimpleStorage.sol": {
+			"keccak256": "0x9265d5e9edefec2a89795fa8f242929a9ad3b19496cbf0502fa0048be12c0ffd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e9d80acd6ba4a35c8515ef8e33ae254a378e4838d932f1b836cb2c9dfaf2611",
+				"dweb:/ipfs/QmcmkiLfUqdT6yc6NxJGAccqLgbkqCRkmHYVUGQU3f3rkY"
+			]
+		}
+	},
+	"version": 1
+}
