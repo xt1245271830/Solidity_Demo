@@ -1,105 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.33+commit.64118f21"
+		"version": "0.8.31+commit.fd3a2265"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "add",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "MyError",
-				"type": "error"
-			},
-			{
-				"inputs": [],
-				"name": "asse",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "req",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "req2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "req3",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "i",
-						"type": "uint256"
-					}
-				],
-				"name": "rev",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -128,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/20Error.sol": {
-			"keccak256": "0x48fb09dc1e0db9b2067073275feee1a6e8bd4ad04108452e159e66e0f10ce9a5",
+			"keccak256": "0x0bcc953be44f2b35afa8e76c78350f9386c8b9f63f3107a98457bf4d232d9e5c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58398ee96d21bac43947d6a79deb8d21e860eacf4d7c9761d471dcf6d5d278eb",
-				"dweb:/ipfs/QmWYAWwSAgV2zVFqVHaRFXs8Pf3hBzukwzjuhRy1e816UV"
+				"bzz-raw://1391d2e8123b9f4b1dfdb03368a26548a5d925b6fe15f9b9f24be0134bc93eaf",
+				"dweb:/ipfs/QmVBfZEdGSUD8fVXM1qX1rw2du75oM1zjsJzxKUn8Eunge"
 			]
 		}
 	},
