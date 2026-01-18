@@ -39,3 +39,5 @@ uint public required;
 Transaction[] public transactions;
 //交易是否被允许,uint代表Transaction的一个id,address就是Owner拥有者
 mapping (uint => mapping (address => bool)) public approved;
+
+}
