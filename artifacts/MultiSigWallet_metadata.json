@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_required",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -92,6 +108,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
@@ -110,6 +139,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "execute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -166,6 +208,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "submit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -196,6 +261,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -226,11 +295,11 @@
 	},
 	"sources": {
 		"demo1/56Multi.sol": {
-			"keccak256": "0x0ec468f7fa71a9fc671a9cb4ca6d32f714e642cf497dafc2cac5c9b779b8fa5f",
+			"keccak256": "0xb8feac5115208bb81de7653a34a0b94e849d21b1cbd36bb8b8a7603f8dbff079",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4114c3eea5b01756041cb86be43cb242201ccc3815c71f7ddbc2d8899e5a931f",
-				"dweb:/ipfs/QmZpE99YfKdnWZiV9RBY8Wk5FVR6Lk1Quba89wHtY5ru7m"
+				"bzz-raw://8df5ccd14efd22b90c4e1f0ab6a9b53845702f8f0f22ac8fbe90356016a53636",
+				"dweb:/ipfs/QmV5vsM1Bg3GLbBeJvi9NB5NKdFBqbjTKPcefpvkbumZLs"
 			]
 		}
 	},
