@@ -10,7 +10,7 @@ event Deposit(address indexed sender, uint amount);
 event Submit( uint indexed txId);
 //合约的owner（拥有者）允许我们执行这笔交易，txId为交易id
 event Approve(address indexed owner, uint indexed txId);
-//当拥有者想返回一个自己
+//当拥有者想撤回自己提交的交易，前提是该交易还未执行
 event Revoke(address indexed owner, uint indexed txId);
 //满足一定数量的拥有者后，就可以执行这笔交易
 event Execute(uint indexed txId);
@@ -21,7 +21,7 @@ struct Transaction{
     address to;
     //带多少以太
     uint value;
-    //最重要的data字段
+    //最重要的data字段，签名和参数
     bytes data;
     //有没有被执行过
     bool executed;
@@ -30,7 +30,7 @@ struct Transaction{
 
     //保存多个拥有者的数组
     address[] public owners;
-    //把这些地址快速判断是否是拥有者，结果存进mapping中
+    //把这些地址快速判断是否是拥有者添加过，结果存进mapping中
     mapping(address => bool) public isOwner;
     //这笔交易的最少拥有者数量，达到这个数量才可以进行这笔交易
     uint public required;
@@ -40,6 +40,7 @@ struct Transaction{
     //Owne交易是否被允许,uint代表Transaction的一个id,address就是Owner拥有者
     mapping (uint => mapping (address => bool)) public approved;
 
+    //_owners所有该笔交易的拥有者，_required这笔交易最少owner数量
     constructor(address[] memory _owners, uint _required) {
         //owners数组长度必须大于零
         require(_owners.length>0, "owners required");
@@ -57,7 +58,7 @@ struct Transaction{
         required = _required;
     }
 
-    //用receive触发事件并发送交易的以太
+    //用receive触发存款事件并发送交易的以太
     receive() external payable {
         emit Deposit(msg.sender,msg.value);
     }
@@ -98,7 +99,7 @@ struct Transaction{
     
 
 
-    //approve 合约的owner（拥有者）允许我们执行这笔交易
+    //approve 合约的owner（拥有者）允许我们执行这笔交易，要保证：只有owner可以提交交易,owner在一笔交易中不能重复出现，交易必须存在，owne交易必须还没有被允许过，这笔交易没有执行
     //onlyOwner只有owner可以提交交易,owner在一笔交易中不能重复出现，
     //txExists交易必须存在
     //notApprove owne交易必须还没有被允许过
@@ -116,7 +117,7 @@ struct Transaction{
             }
         }
     }
-    //执行交易
+    //执行交易，要保证：交易必须存在，这笔交易没有执行
     //txExists交易必须存在
     //notExecuted这笔交易没有执行
     function execute(uint _txId) external txExists(_txId) notExecuted(_txId){
@@ -125,11 +126,23 @@ struct Transaction{
         Transaction storage transaction = transactions[_txId];
         transaction.executed = true;
 
+        //发送给谁transaction.to，transaction.value以太数量，transaction.data发送时携带的签名
         (bool success, ) = transaction.to.call{value: transaction.value}(
             transaction.data
         );
         require(success, "tx failure");
 
         emit Execute(_txId);
+    }
+
+    //撤销允许过的交易，要保证：只有自己可以撤销，交易必须存在，交易还没有执行过
+    //onlyOwner只有owner可以提交交易,owner在一笔交易中不能重复出现，
+    //txExists交易必须存在
+    //notExecuted这笔交易没有执行
+    function revoke(uint _txId) external onlyOwner txExists(_txId) notExecuted(_txId){
+        //检查交易是否被允许过了，因为方法是要撤销允许的交易，没允许过自然不用撤销
+        require(approved[_txId][msg.sender], "tx not approved");
+        approved[_txId][msg.sender]=false;
+        emit Revoke(msg.sender, _txId);
     }
 }

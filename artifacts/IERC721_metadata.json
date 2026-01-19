@@ -6,30 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_tokenId",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -46,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/Counter.sol": "Counter"
+			"demo1/58DutchAuction.sol": "IERC721"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -60,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/Counter.sol": {
-			"keccak256": "0x262acb4b152d16baef21ed58d289a10b6337fa590ad42a193e95889eb6ca0160",
+		"demo1/58DutchAuction.sol": {
+			"keccak256": "0x58e9e3126bb2d9a9b058b62e1b3c6ea14bdd00b0656dd8fa9256248425016518",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3ed54cf6b309c1b9f7286fbb96c5e377f8cf8b942d6ddbd62a35403c34a06f0b",
-				"dweb:/ipfs/QmbNdjpSBUSMiUGfwVHcPFTVaGLT6RGnqm3ZaTqCjPEMvw"
+				"bzz-raw://b8f8d0dc32216703cd4254f79123cb9ce1973a3b7b3f94b96f83d5cc444681bf",
+				"dweb:/ipfs/QmYH6RNxKPR1hDxoqEKpoAZH6mGswcFXsb21N2omqhnsbB"
 			]
 		}
 	},

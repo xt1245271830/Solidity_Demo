@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/58DutchAuction.sol": "Name"
+			"demo1/58DutchAuction.sol": "I"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/58DutchAuction.sol": {
-			"keccak256": "0x32d1b9600c642a4e3c6291a7be7a03dc718656669b2f08b5379309f26398a6aa",
+			"keccak256": "0x7c9797d225ae1f9bc8429c9edc308f8535c6727fc2b5fd5bd25ae468980f0726",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ebc9b78f39c4a5959af181e033f6597b8ce5772296997209c748816c0ff308a",
-				"dweb:/ipfs/QmaKYMt4iFV9CEb1UaHUdcaK6iW5LRyZWRDxPeKr5287eq"
+				"bzz-raw://4e5ad7805f2be5811c7f36d5f2e1f8bddd290819b87b030f5a8d446aaae58e2c",
+				"dweb:/ipfs/QmPehV6E5e4D6QCKn9UfYHz74nTKK5tCauaknspPrC2VtG"
 			]
 		}
 	},
