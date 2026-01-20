@@ -8,7 +8,7 @@ interface IERC721 {
         uint256 _tokenId) external;
 }
 
-//荷兰拍卖
+//荷兰拍卖：荷兰拍卖（也称减价拍卖），是一种价格由高到低递减，直到有人应价便立即成交的拍卖方式。它的两个核心规则是 “递减定价” 和 “首个应价者成交” 
 contract DutchAuction {
 //NFT相关信息
     //immutable在构造函数中初始化
@@ -65,6 +65,7 @@ contract DutchAuction {
         //校验用户的出价，必须大于当前商品价格
         require(msg.value >= price, "ETH < price");
 
+        //是 ERC-721 标准（NFT 标准）中定义的一个核心函数，用于 安全地将一个 NFT 从当前所有者转移给另一个地址
         nft.transferFrom(seller, msg.sender, nftId);
         //将出价的差价，退还给买家
         uint refund = msg.value - price;
