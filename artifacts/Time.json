@@ -1,0 +1,48 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea2646970667358221220c255f2d5b6ebccbda254e2ca061ad333bb923b45d10e0e37c66aed6c578b1cbf64736f6c63430008210033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC2 SSTORE CALLCODE 0xD5 0xB6 0xEB 0xCC 0xBD LOG2 SLOAD 0xE2 0xCA MOD BYTE 0xD3 CALLER 0xBB SWAP3 EXTCODESIZE GASLIMIT DATALOADN 0xE0E CALLDATACOPY 0xC6 PUSH11 0xED6C578B1CBF64736F6C63 NUMBER STOP ADDMOD 0x21 STOP CALLER ",
+			"sourceMap": "61:24:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f5ffdfea2646970667358221220c255f2d5b6ebccbda254e2ca061ad333bb923b45d10e0e37c66aed6c578b1cbf64736f6c63430008210033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC2 SSTORE CALLCODE 0xD5 0xB6 0xEB 0xCC 0xBD LOG2 SLOAD 0xE2 0xCA MOD BYTE 0xD3 CALLER 0xBB SWAP3 EXTCODESIZE GASLIMIT DATALOADN 0xE0E CALLDATACOPY 0xC6 PUSH11 0xED6C578B1CBF64736F6C63 NUMBER STOP ADDMOD 0x21 STOP CALLER ",
+			"sourceMap": "61:24:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "64",
+				"totalCost": "12464"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

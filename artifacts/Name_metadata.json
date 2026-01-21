@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/58DutchAuction.sol": "Name"
+			"demo1/66TimeLock.sol": "Name"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/58DutchAuction.sol": {
-			"keccak256": "0x32d1b9600c642a4e3c6291a7be7a03dc718656669b2f08b5379309f26398a6aa",
+		"demo1/66TimeLock.sol": {
+			"keccak256": "0x944b860eff5b699a33398a2e4db160275627f92c897bd51824bc2d9ee0dff084",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ebc9b78f39c4a5959af181e033f6597b8ce5772296997209c748816c0ff308a",
-				"dweb:/ipfs/QmaKYMt4iFV9CEb1UaHUdcaK6iW5LRyZWRDxPeKr5287eq"
+				"bzz-raw://8b60da2c6c3cdffaed4e970fe6d59320d03f59ebafccd0e12a0a2ed0ffa2273a",
+				"dweb:/ipfs/QmPZkt99fvJTMKZrmfxQSR7jtQh7F3zb1h52BsZTfQ4L1r"
 			]
 		}
 	},

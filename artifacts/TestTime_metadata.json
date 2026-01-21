@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/66TimeLock.sol": "Test"
+			"demo1/66TimeLock.sol": "TestTime"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo1/66TimeLock.sol": {
-			"keccak256": "0xbec8a4282317957aa297541e3748164949bccabe11b135df23d2996294ac237b",
+			"keccak256": "0xe36d2915905b394ec5bc991ad99b3b2aca9214145245452dae0a22cae2720dd8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a64b28c5afdedda6fb8430324ebd5fe8d6137dd686dc8f3d1dd193ebfed65ddb",
-				"dweb:/ipfs/Qmc2uiNe2cjaf3Tk5VmP8HaU87ero8n3u5eEF8XUSH7MPC"
+				"bzz-raw://994d457bb5b6f4ae69ceb1636928c8358a66489641f492d0877e52c467cbd1f5",
+				"dweb:/ipfs/QmaSb6x5zWVRAzfEyhqSEyMiBkm4Ge2rriErbhyRAcTSd2"
 			]
 		}
 	},
