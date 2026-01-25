@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "一个简单的代币合约，用于演示",
+			"kind": "dev",
+			"methods": {},
+			"title": "Token",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/82AbiEncode.sol": "Token"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/82AbiEncode.sol": {
+			"keccak256": "0x8c48b13992639489811c4bb09a1c356a55f805e2160229cf23196d6de473724d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://828ff473cadc8e4280d2514fd84ab54d5146039ee9146527b0ae85472418d09b",
+				"dweb:/ipfs/QmbuDKwh42v9dZ1P1eVRwRuPRXJ8AG41GTxb4T78cL3KDD"
+			]
+		}
+	},
+	"version": 1
+}

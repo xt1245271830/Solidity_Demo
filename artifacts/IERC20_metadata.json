@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -19,49 +19,16 @@
 					}
 				],
 				"name": "transfer",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "transferFrom",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"details": "ERC20代币标准接口（简化版）",
 			"kind": "dev",
 			"methods": {},
+			"title": "IERC20",
 			"version": 1
 		},
 		"userdoc": {
@@ -72,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/60CrowdFund.sol": "IERC20"
+			"demo1/82AbiEncode.sol": "IERC20"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -86,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/60CrowdFund.sol": {
-			"keccak256": "0x63600d590f27bf0b28c1d773625a984dae7bd806682e4f6e7b3425b3b3b78a60",
+		"demo1/82AbiEncode.sol": {
+			"keccak256": "0x8c48b13992639489811c4bb09a1c356a55f805e2160229cf23196d6de473724d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://356bbd4b89ddd5702064bed4e9ce1d34174afa3bf1b2a47a96f2cc173570038c",
-				"dweb:/ipfs/QmZQ2r8qwdC6tReepuUYtCwGi4ZDgEd5DxJWFy1nzzfvCs"
+				"bzz-raw://828ff473cadc8e4280d2514fd84ab54d5146039ee9146527b0ae85472418d09b",
+				"dweb:/ipfs/QmbuDKwh42v9dZ1P1eVRwRuPRXJ8AG41GTxb4T78cL3KDD"
 			]
 		}
 	},

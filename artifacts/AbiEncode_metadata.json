@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeCall",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeWithSelector",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeWithSignature",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "演示三种不同的ABI编码方式",
+			"kind": "dev",
+			"methods": {
+				"encodeCall(address,uint256)": {
+					"details": "使用encodeCall编码transfer调用（推荐方式）",
+					"params": {
+						"amount": "转账金额",
+						"to": "接收地址"
+					},
+					"returns": {
+						"_0": "编码后的调用数据"
+					}
+				},
+				"encodeWithSelector(address,uint256)": {
+					"details": "使用encodeWithSelector编码transfer调用",
+					"params": {
+						"amount": "转账金额",
+						"to": "接收地址"
+					},
+					"returns": {
+						"_0": "编码后的调用数据"
+					}
+				},
+				"encodeWithSignature(address,uint256)": {
+					"details": "使用encodeWithSignature编码transfer调用",
+					"params": {
+						"amount": "转账金额",
+						"to": "接收地址"
+					},
+					"returns": {
+						"_0": "编码后的调用数据"
+					}
+				},
+				"test(address,bytes)": {
+					"details": "执行任意调用数据",
+					"params": {
+						"_contract": "目标合约地址",
+						"data": "编码后的调用数据"
+					}
+				}
+			},
+			"title": "AbiEncode",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo1/82AbiEncode.sol": "AbiEncode"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo1/82AbiEncode.sol": {
+			"keccak256": "0x8c48b13992639489811c4bb09a1c356a55f805e2160229cf23196d6de473724d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://828ff473cadc8e4280d2514fd84ab54d5146039ee9146527b0ae85472418d09b",
+				"dweb:/ipfs/QmbuDKwh42v9dZ1P1eVRwRuPRXJ8AG41GTxb4T78cL3KDD"
+			]
+		}
+	},
+	"version": 1
+}
