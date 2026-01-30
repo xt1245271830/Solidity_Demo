@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo/2english_auction/EnglishAuction.sol": "E"
+			"demo/2english_auction/EnglishAuction.sol": "English"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"demo/2english_auction/EnglishAuction.sol": {
-			"keccak256": "0x4556fc7715e4388ceb0cffc3e33406c2f5c2f5d341217b19faec9345953dfe8b",
+			"keccak256": "0x6a4a2ecc2f8c7dff1103d9ae8057608ee03dcff44822b0297384c2b1a4502b32",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f203e5cb0e8dbd766eef81e1052e9f83f972099467785b0810c001f56f5fa2e",
-				"dweb:/ipfs/QmS6P1jZ46MPJps5bSaeM8oeVvqZFpW2u3a5jk89t9Nqfo"
+				"bzz-raw://6ba3a2acb0c0848835ab9a66c98df0e8e7eba0bfc57751bd7980254ab1bc9b6e",
+				"dweb:/ipfs/QmSTcSXSyLgt6GLA4wCM5BVRgHPZRbyNbvRYRKx1eYNW6P"
 			]
 		}
 	},

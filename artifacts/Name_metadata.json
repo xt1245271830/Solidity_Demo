@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.33+commit.64118f21"
+		"version": "0.8.31+commit.fd3a2265"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/66TimeLock.sol": "Name"
+			"demo/2english_auction/EnglishAuction.sol": "Name"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/66TimeLock.sol": {
-			"keccak256": "0x944b860eff5b699a33398a2e4db160275627f92c897bd51824bc2d9ee0dff084",
+		"demo/2english_auction/EnglishAuction.sol": {
+			"keccak256": "0xf10a6946e9ced1dc4743e6e24996f79c4a0fd10bdaf4414e7063eed1a3266d92",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8b60da2c6c3cdffaed4e970fe6d59320d03f59ebafccd0e12a0a2ed0ffa2273a",
-				"dweb:/ipfs/QmPZkt99fvJTMKZrmfxQSR7jtQh7F3zb1h52BsZTfQ4L1r"
+				"bzz-raw://154677418fa3cef5a2e1ccb97cd73b856da72f6b5de8d2a84a55705c35ef3a7c",
+				"dweb:/ipfs/QmP77VpSFBRLrSbodfyHJNrAqdPbYpKxaYjGFrLHeraqY5"
 			]
 		}
 	},
