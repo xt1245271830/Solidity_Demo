@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/17Constants.sol": "Ver"
+			"demo1/demo/17Constants.sol": "Ver"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/17Constants.sol": {
+		"demo1/demo/17Constants.sol": {
 			"keccak256": "0x23dc5a85e5ad8cbc406956db082e390280ba6bbcfd91f689426b7da95f6caa6d",
 			"license": "MIT",
 			"urls": [

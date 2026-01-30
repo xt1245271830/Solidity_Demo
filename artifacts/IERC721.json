@@ -55,7 +55,7 @@
 				},
 				{
 					"internalType": "uint256",
-					"name": "_nftId",
+					"name": "_tokenId",
 					"type": "uint256"
 				}
 			],

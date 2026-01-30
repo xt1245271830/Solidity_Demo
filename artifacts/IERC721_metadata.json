@@ -19,7 +19,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_nftId",
+						"name": "_tokenId",
 						"type": "uint256"
 					}
 				],
@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/3EnglishAuction.sol": "IERC721"
+			"demo1/2DutchAuction.sol": "IERC721"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -56,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/3EnglishAuction.sol": {
-			"keccak256": "0x16130c47c9473e9a296cf560e464015516a446603bf2a58949f9deab0fae31c1",
+		"demo1/2DutchAuction.sol": {
+			"keccak256": "0xe09a46ac089f2b80b470847994a3e627d3dc48bc76c03f108677f1efde2d342f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a6e26257111710c4b2eec6a960044dcc386a275a7518aef01cdafc94dec7576",
-				"dweb:/ipfs/QmNwUq6vQg6XiBcoYbWLLSmgMuRc5AkfiNNC3PcLTYhk4v"
+				"bzz-raw://a92f570bdeca40ce959e9bd069a4219882234b031ed42ba1909933a3ab9cc349",
+				"dweb:/ipfs/Qmar65Datv47qsLikZd3dGFAjWgUyqv6UPGKUiTQqf8b9E"
 			]
 		}
 	},
