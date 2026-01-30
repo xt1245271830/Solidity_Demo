@@ -280,7 +280,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/56Multi.sol": "MultiSigWallet"
+			"demo1/1Multi.sol": "MultiSigWallet"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -294,7 +294,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/56Multi.sol": {
+		"demo1/1Multi.sol": {
 			"keccak256": "0xb8feac5115208bb81de7653a34a0b94e849d21b1cbd36bb8b8a7603f8dbff079",
 			"license": "MIT",
 			"urls": [

@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/Counter.sol": "Counter"
+			"demo1/demo/Counter.sol": "Counter"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -60,7 +60,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/Counter.sol": {
+		"demo1/demo/Counter.sol": {
 			"keccak256": "0x262acb4b152d16baef21ed58d289a10b6337fa590ad42a193e95889eb6ca0160",
 			"license": "MIT",
 			"urls": [

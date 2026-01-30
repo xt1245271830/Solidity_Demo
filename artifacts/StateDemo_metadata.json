@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -39,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/StateDemo.sol": "StateDemo"
+			"demo1/demo/StateDemo.sol": "StateDemo"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/StateDemo.sol": {
+		"demo1/demo/StateDemo.sol": {
 			"keccak256": "0x4074872073e9f22935fdc75f8efaa94755baadf5b311332ded99d403df23b81c",
 			"license": "MIT",
 			"urls": [

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -65,9 +65,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/LocalVariables.sol": "LocalVariables"
+			"demo1/demo/LocalVariables.sol": "LocalVariables"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -79,7 +79,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/LocalVariables.sol": {
+		"demo1/demo/LocalVariables.sol": {
 			"keccak256": "0x6c13bcc6f8f61d7f12cd9ce159977ad9301f89f1ceb63bbd9b9fa7a84402ab42",
 			"license": "MIT",
 			"urls": [

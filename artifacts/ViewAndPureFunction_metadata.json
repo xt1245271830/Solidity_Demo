@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -77,9 +77,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/ViewAndPureFunction.sol": "ViewAndPureFunction"
+			"demo1/demo/ViewAndPureFunction.sol": "ViewAndPureFunction"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -91,7 +91,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/ViewAndPureFunction.sol": {
+		"demo1/demo/ViewAndPureFunction.sol": {
 			"keccak256": "0x3da54da82a9a8000b5e4c8ad910ce4bb597d23bfb00be88feeabfa7d1ede6800",
 			"license": "MIT",
 			"urls": [

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -156,9 +156,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/58DutchAuction.sol": "DutchAuction"
+			"demo1/2DutchAuction.sol": "DutchAuction"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -170,7 +170,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/58DutchAuction.sol": {
+		"demo1/2DutchAuction.sol": {
 			"keccak256": "0xe09a46ac089f2b80b470847994a3e627d3dc48bc76c03f108677f1efde2d342f",
 			"license": "MIT",
 			"urls": [

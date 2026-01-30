@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.33+commit.64118f21"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/HelloWorld.sol": "HelloWorld"
+			"demo1/demo/HelloWorld.sol": "HelloWorld"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/HelloWorld.sol": {
+		"demo1/demo/HelloWorld.sol": {
 			"keccak256": "0x1adf71e251a51e548f543fcadd0660066105a9c1d9fa6e8b90b225c539fc760b",
 			"license": "MIT",
 			"urls": [

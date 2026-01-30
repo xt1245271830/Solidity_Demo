@@ -254,7 +254,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/59EnglishAuction.sol": "EnglishAuction"
+			"demo1/3EnglishAuction.sol": "EnglishAuction"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -268,7 +268,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/59EnglishAuction.sol": {
+		"demo1/3EnglishAuction.sol": {
 			"keccak256": "0x16130c47c9473e9a296cf560e464015516a446603bf2a58949f9deab0fae31c1",
 			"license": "MIT",
 			"urls": [
