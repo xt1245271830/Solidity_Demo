@@ -69,7 +69,7 @@ contract EnglishAuction {
         //拍卖开始
         started = true;
         //设置拍卖截止时间
-        endAt = uint32(block.timestamp + 60);
+        endAt = uint32(block.timestamp + 600);
         //把nft委托给合约，后续好进行拍卖
         nft.transferFrom(seller,address(this),nftId);
         //触发卖家发起拍卖完成事件
