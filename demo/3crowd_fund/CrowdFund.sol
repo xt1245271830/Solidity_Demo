@@ -64,9 +64,9 @@ contract CrowdFund {
         require(_endOffset <= 30 days,"end > 30 days");
         
         //把当前时间加上开始时间偏移量作为开始时间
-        uint _startAt = uint32(block.timestamp) + _startOffset;
+        uint32 _startAt = uint32(block.timestamp) + _startOffset;
         //把当前时间加上结束时间偏移量作为结束时间
-        uint _endAt = uint32(block.timestamp) + _endOffset;
+        uint32 _endAt = uint32(block.timestamp) + _endOffset;
         //记录轮次
         count +=1;
         campaigns[count] = Campaign({
@@ -156,7 +156,8 @@ contract CrowdFund {
         uint bal = pledgedAmount[_id][msg.sender];
         pledgedAmount[_id][msg.sender] = 0;
         token.transfer(msg.sender,bal);
-
+        
+        //调用失败退款成功事件
         emit Refund(_id,msg.sender,bal);
 
     }

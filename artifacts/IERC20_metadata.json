@@ -9,12 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -33,17 +33,17 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "from",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo1/60CrowdFund.sol": "IERC20"
+			"demo/3crowd_fund/CrowdFund.sol": "IERC20"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo1/60CrowdFund.sol": {
-			"keccak256": "0x63600d590f27bf0b28c1d773625a984dae7bd806682e4f6e7b3425b3b3b78a60",
+		"demo/3crowd_fund/CrowdFund.sol": {
+			"keccak256": "0xbde98e2c5eb4a6f0ebfc31063b1a5f68379ae2cf975977432e56a875aaa1c98b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://356bbd4b89ddd5702064bed4e9ce1d34174afa3bf1b2a47a96f2cc173570038c",
-				"dweb:/ipfs/QmZQ2r8qwdC6tReepuUYtCwGi4ZDgEd5DxJWFy1nzzfvCs"
+				"bzz-raw://af955b6da9f6de4d9672d2834e23b9cf9e764e29f107b320c25ceafcaf943c0f",
+				"dweb:/ipfs/QmX8RcqRYo83yhdFGEupXNtAf3XwzKpRCTrubCYWi6c6ze"
 			]
 		}
 	},
